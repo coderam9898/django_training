@@ -1,6 +1,8 @@
 # Opp concepts
 
 
+
+
 class Person:
     age = 22
     name = "Ram kumar Mahato"
@@ -11,3 +13,7 @@ class Person:
 
 p =Person()
 p.get_name()
+
+
+print("(x,y)")
+print("("+")")
