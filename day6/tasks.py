@@ -23,21 +23,26 @@ v.get_data()
 #   Formula res = sqrt((x2-x1)^2 +(y2-y1)^2), where x1 and x2 are x values of p1 and p2 points resp. , y1 and y2 are y values of p1 and p2 respectively.
 #  c. Represent the point objects with x,y values in the format (x,y). Eg:(2,3).
 import math
+
 class Point:
-    def __init__(self):
-        x = 0
-        y = 0
-    
-    def getvalue(self,x,y):
-        print(x,y)
+  def __init__(self, X, Y):
+    self.x = X
+    self.y = Y
 
-    def distform(self,x,y):
-        print('hello')
-        res = math.sqrt((p1.x-p2.x)^2 +(p1.y-p2.y)^2)
-        print(res)
+p1 = Point(2, 3)
+p2 = Point(15, 22)
 
-p1 = Point()
-p2 = Point()
-p1.getvalue(10,12)
-p1.distform(5, 6)
+def distance():
+    res = math.sqrt(((p1.x-p2.x)^2+(p1.y-p2.y)^2)^2)
+    # (x2 - x1)**2 + (y2 - y1)**2
+    print("The distace between the two point is ",res)
+# print(p1.x,p2.x)
+# print(p1.y,p2.y)
+distance()
 
+
+# Q2(c) answer
+
+print("object 1 is:" , "("+str(p1.x)+","+str(p1.y)+")")
+print("object 2 is:" , "("+str(p2.x)+","+str(p2.y)+")")
+print("(x,y)")
