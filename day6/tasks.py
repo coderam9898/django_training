@@ -28,6 +28,7 @@ class Point:
   def __init__(self, X, Y):
     self.x = X
     self.y = Y
+    
 
 p1 = Point(2, 3)
 p2 = Point(15, 22)
@@ -46,3 +47,4 @@ distance()
 print("object 1 is:" , "("+str(p1.x)+","+str(p1.y)+")")
 print("object 2 is:" , "("+str(p2.x)+","+str(p2.y)+")")
 print("(x,y)")
+print('hjgjhgj',p1)
